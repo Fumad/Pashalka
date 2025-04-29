@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Actor", sans-serif;
+}
+
+body {
+    background-image: url(Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(to right, #33CCCC , rgba(255, 255, 255, 0));
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 1%;
+}
+
+h2 {
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nava {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+main {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ultrakill {
+    background-image: url(Images/UltrakillBanners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: white;
+    padding: 2%;
+    font-size: 30px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.473);
+    border-radius: 26px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.678);
+    border-radius: 26px;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+    width: 500px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    color: white;
+    padding: 2%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 26px;
+    margin-top: 5%;
+}
+
+.buttona {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(to right, #006363 , rgba(255,255,255,0));
+    display: flex;
+    padding: 2.2%;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 20px;
+    padding: 1% 0 2% 0;
+    color: white;
+}
+
+.icons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsa {
+    margin: 2%;
+}
+
+.iconsimg {
+    margin: 10%;
+}

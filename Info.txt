@@ -1,0 +1,6 @@
+Website Name: Pashalka
+Menu: Action, Puzzle, Fighting, Popular, Recently Added, News
+Colors: #009999	#1D7373	#006363	#33CCCC	#5CCCCC
+Social Media: Youtube, TikTok, Discord
+Logo Font:Kantumruy
+Main Font:Actor
