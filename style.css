@@ -96,6 +96,17 @@ h4 {
     color: white;
 }
 
+img {
+    animation-name: imageanim;
+    animation-duration: 0.5s; 
+}
+
+@keyframes imageanim {
+    100%{
+        translate:scale(2)
+    }
+}
+
 .popularcontainer {
     display: flex;
     text-align: center;
@@ -118,6 +129,11 @@ h5 {
     width: 383px;
     height: 249px;
     border-radius: 26px;
+    transition: transform 0.5s;
+}
+
+.popularimg:hover {
+    transform: scale(1.1);
 }
 
 .news {
